@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.png">
+    <title>Coming Soon!</title>
+    <script>
+        document.addEventListener('contextmenu', function (e) {
+          e.preventDefault();
+        });
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(45deg, #ff69b4, #800080);
+            color: white;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            user-select: none;
+        }
+
+        .container {
+            max-width: 600px;
+        }
+
+        .circle-photo {
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .circle-photo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .title {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        .subtitle {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .copyright {
+            margin-top: 30px;
+            font-size: 14px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle-photo">
+            <img src="/static/images/sofiaevelina.jpg" alt="Sofia and Evelina">
+        </div>
+        <h1 class="title">Exciting Adventures Ahead!</h1>
+        <p class="subtitle">Stay tuned. Check in with us as we prepare something special just for you!</p>
+        <p class="copyright">&copy; 2024 <a href="mailto:copyright@garrynet.co.uk">garrynet</a> - All Rights Reserved</p>
+    </div>
+</body>
+</html>
