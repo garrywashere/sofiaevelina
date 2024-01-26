@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff69b4, #800080);
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    user-select: none;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.circle-photo {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.circle-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.copyright {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
